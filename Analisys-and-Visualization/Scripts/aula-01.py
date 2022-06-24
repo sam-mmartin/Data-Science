@@ -16,5 +16,6 @@ print(notas['nota'].unique())
 print(notas['nota'].value_counts())
 print(notas['nota'].mean())  # retorna a media dos elementos da serie
 
-plt.plot(notas.nota)
+# plt.plot(notas.nota)
+plt.hist(notas.nota)
 plt.show()
